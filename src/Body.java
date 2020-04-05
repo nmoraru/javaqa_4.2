@@ -1,7 +1,5 @@
 public class Body {
     public static void calculateMassIndex(double weight, double height) {
-        //this.weight = weight;
-        //this.height = height;
         double ind = (weight * 10_000) / (height * height);
         if (ind < 18.5) {
             System.out.println("Недовес: ваш ИМТ " + ind + " меньше чем 18.5");
